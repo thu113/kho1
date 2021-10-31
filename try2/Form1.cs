@@ -23,5 +23,12 @@ namespace try2
             int h = int.Parse(this.textBox2.Text);
             this.textBox3.Text = (k + h).ToString();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.textBox1.Text = null;
+            this.textBox2.Text = null;
+            this.textBox3.Text = null;
+        }
     }
 }
