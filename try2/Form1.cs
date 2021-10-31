@@ -22,11 +22,8 @@ namespace try2
             
             int k = int.Parse(this.textBox1.Text);
             int h = int.Parse(this.textBox2.Text);
-<<<<<<< HEAD
-            if(k != 0 && k!= 1)
-=======
-            if(k == 10)
->>>>>>> anh
+
+            if(k != 10)
             this.textBox3.Text = (k + h).ToString();
         }
 
