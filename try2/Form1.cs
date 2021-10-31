@@ -17,5 +17,11 @@ namespace try2
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int k = int.Parse(this.textBox1.Text);
+            int h = int.Parse(this.textBox2.Text);
+            this.textBox3.Text = (k + h).ToString();
+        }
     }
 }
